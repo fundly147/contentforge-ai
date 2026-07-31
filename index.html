@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ContentForge AI ist eine lokale Desktop-App zur Erstellung und manuellen Prüfung von Pinterest-Pins aus eigenen Produktbildern.">
+  <title>ContentForge AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html">ContentForge AI</a>
+    <nav>
+      <a href="#features">Funktionen</a>
+      <a href="#privacy">Datenschutz</a>
+      <a href="privacy.html">Datenschutzerklärung</a>
+      <a href="impressum.html">Impressum</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="badge">Lokale Desktop-App · persönlicher Gebrauch</div>
+      <h1>Ein Bild. Ein Pin. Volle Kontrolle.</h1>
+      <p class="lead">ContentForge AI erstellt Pinterest-Pin-Entwürfe aus Produktbildern, die der Nutzer selbst bereitstellt. Jeder Pin wird vor dem Speichern oder Veröffentlichen manuell geprüft.</p>
+      <div class="actions">
+        <a class="btn primary" href="#features">Funktionen ansehen</a>
+        <a class="btn" href="privacy.html">Datenschutz lesen</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <img class="screenshot" src="assets/app-screenshot.png" alt="Screenshot der ContentForge-AI-Desktop-App">
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="container">
+      <h2>So funktioniert ContentForge</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>1. Produktbild einfügen</h3>
+          <p>Der Nutzer fügt ein eigenes oder zulässig verwendbares Produktbild per Zwischenablage, Drag & Drop oder Dateiauswahl ein.</p>
+        </article>
+        <article class="card">
+          <h3>2. Pin-Entwurf erstellen</h3>
+          <p>Die App kombiniert Bild, Layout, Farben und einen bearbeitbaren Text zu einem Pinterest-Pin.</p>
+        </article>
+        <article class="card">
+          <h3>3. Manuell prüfen</h3>
+          <p>Es erfolgt keine automatische Veröffentlichung ohne Bestätigung. Der Nutzer kontrolliert Titel, Beschreibung, Link und Ziel-Board.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacy">
+    <div class="container copy">
+      <h2>Datenschutz und API-Nutzung</h2>
+      <p>ContentForge AI ist als lokale Desktop-Anwendung für den persönlichen Gebrauch konzipiert. Produktbilder und Entwürfe werden lokal verarbeitet und gespeichert.</p>
+      <p>Für eine optionale Pinterest-Anbindung benötigt die App ausschließlich Zugriff auf die eigenen Boards und Pins des authentifizierten Nutzers. Vorgesehen sind die Bereiche <code>boards:read</code>, <code>pins:read</code> und <code>pins:write</code>.</p>
+      <p>Die App greift nicht auf Pinterest-Inhalte anderer Nutzer zu und veröffentlicht keine Pins ohne eine ausdrückliche Aktion des Nutzers.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-row">
+    <div>© 2026 ContentForge AI</div>
+    <div class="footer-links">
+      <a href="privacy.html">Datenschutz</a>
+      <a href="impressum.html">Impressum</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
